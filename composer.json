@@ -2,6 +2,7 @@
     "name": "wpiservice/wpi-service",
     "description": "Check Overall Website Performance",
     "type": "library",
+    "version": "1.0.0",
     "license": "MIT",
     "autoload": {
         "psr-4": {
