@@ -1,0 +1,30 @@
+{
+    "name": "wpiservice/wpi-service",
+    "description": "Check Overall Website Performance",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "wpiservice\\WpiService\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aseem Kumar",
+            "email": "kcharaya41@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0" 
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "wpiservice\\WpiService\\PerformanceServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
+
