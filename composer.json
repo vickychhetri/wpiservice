@@ -13,7 +13,12 @@
         {
             "name": "Aseem Kumar",
             "email": "kcharaya41@gmail.com"
+        },
+        {
+            "name": "Vicky Chhetri",
+            "email": "vicky.chhetri.henceforth@gmail.com"
         }
+
     ],
     "require": {
         "guzzlehttp/guzzle": "^7.0" 
