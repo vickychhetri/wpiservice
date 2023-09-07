@@ -1,6 +1,6 @@
 {
     "name": "wpiservice/wpi-service",
-    "description": "Check Overall Website Performance",
+    "description": " Checking Overall Website Performance",
     "type": "library",
   
     "license": "MIT",
@@ -36,8 +36,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "wpiservice\\WpiService\\PerformanceServiceProvider",
-                "wpiservice\\WpiService\\IWpiServiceProvider"
+                "wpiservice\\WpiService\\PerformanceServiceProvider"
+               
                 ]
                 
             
@@ -46,4 +46,6 @@
     "minimum-stability": "stable",
     "prefer-stable": true
 }
+
+
 
