@@ -1,5 +1,5 @@
 {
-    "name": "wpiservices/wpi-services",
+    "name": "wpiservice/wpi-service",
     "description": "Check Overall Website Performance",
     "type": "library",
   
