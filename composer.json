@@ -36,7 +36,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "wpiservice\\WpiService\\PerformanceServiceProvider"
+                "wpiservice\\WpiService\\PerformanceServiceProvider",
+                "wpiservice\\WpiService\\IWpiServiceProvider"
             ]
         }
     },

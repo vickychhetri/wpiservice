@@ -1,7 +1,8 @@
 <?php
 namespace wpiservice\WpiService;
 use GuzzleHttp\Client;
-class WpiService
+use wpiservice\WpiService\IWpiService;
+class WpiService implements IWpiService
 {
 
  /**
@@ -91,7 +92,5 @@ public function PerformanceMetric($Data, $metricName = null)
 
 
 }
-
-
 
 
